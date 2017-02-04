@@ -13,6 +13,7 @@ namespace FoxKing
             var kingdom = new Kingdom(2, 4, 3, 1000);
             var result = GameLogic.Step(kingdom);
             Console.WriteLine(kingdom.ToString() + '\n' + result.ToString());
+            System.Console.ReadLine();
         }
     }
 }

@@ -9,7 +9,7 @@ namespace FoxKing
 {
     public class Population
     {
-        public static Population empty = new Population { knight = 0, peasent = 0, spearman = 0 };
+        public static readonly Population empty = new Population { knight = 0, peasent = 0, spearman = 0 };
 
         public int knight { get; set; }
         public int peasent { get; set; }
